@@ -1,11 +1,10 @@
 package com.frezneel.starter.services.impl;
 
-import com.frezneel.starter.configs.JwtService;
+import com.frezneel.starter.services.JwtService;
 import com.frezneel.starter.dto.auth.LoginRequest;
 import com.frezneel.starter.dto.auth.LoginResponse;
 import com.frezneel.starter.dto.user.UserRegisterRequest;
 import com.frezneel.starter.exceptions.AuthException;
-import com.frezneel.starter.exceptions.GlobalExceptionHandler;
 import com.frezneel.starter.exceptions.ResourceNotFoundException;
 import com.frezneel.starter.models.Roles;
 import com.frezneel.starter.models.Users;

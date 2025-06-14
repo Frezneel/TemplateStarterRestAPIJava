@@ -1,4 +1,4 @@
-package com.frezneel.starter.configs;
+package com.frezneel.starter.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
